@@ -1,0 +1,54 @@
+.table{
+  padding: 10px;
+  margin: 50px;
+  display: table;
+  width: auto;
+  background-color: #eee;
+  border: 1px solid #666666;
+  border-spacing: 5px;
+}
+
+.column{
+  border: 1px solid black;
+  display: flex;
+  width: 100px;
+  height: 50px;
+  justify-content: center;
+  float: left;
+  display: table-column;
+  width: 200px;
+  background-color: #ccc;
+  text-align: center;
+  line-height: 50px;
+}
+
+.row{
+  display: table-row;
+  width: auto;
+  clear: both;
+}
+
+.add{
+  width: 100px;
+  height: 35px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 35px;
+  margin: 50px;
+}
+
+.add:hover{
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+
+.form form{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.form form input{
+  margin: 20px;
+}
